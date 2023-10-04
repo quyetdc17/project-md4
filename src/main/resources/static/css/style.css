@@ -1800,7 +1800,7 @@ ul {
 1.6 Preloader styles
 --------------------------------------*/
 #preloader {
-  background: #ffffff url('img/preloader.gif') no-repeat scroll center center;
+  background: #ffffff url('../img/preloader.gif') no-repeat scroll center center;
   height: 100%;
   left: 0;
   overflow: visible;
@@ -5049,7 +5049,7 @@ ul {
   color: #111111;
 }
 .main-slider2 .preview-1 a.nivo-prevNav {
-  background: url(lib/custom-slider/img/left-arrow.png);
+  background: url(../lib/custom-slider/img/left-arrow.png);
   background-position: left;
   width: 66px;
   text-align: right;
@@ -5057,7 +5057,7 @@ ul {
 }
 .main-slider2 .preview-1 a.nivo-nextNav {
   padding-right: 25px;
-  background: url(lib/custom-slider/img/right-arrow.png);
+  background: url(../lib/custom-slider/img/right-arrow.png);
   background-position: right;
   width: 66px;
   text-align: left;
@@ -5635,7 +5635,7 @@ ul {
   color: #111111;
 }
 .main-slider5 .preview-1 a.nivo-prevNav {
-  background: url(lib/custom-slider/img/left-arrow.png);
+  background: url(../lib/custom-slider/img/left-arrow.png);
   background-position: left;
   width: 66px;
   text-align: right;
@@ -5643,7 +5643,7 @@ ul {
 }
 .main-slider5 .preview-1 a.nivo-nextNav {
   padding-right: 25px;
-  background: url(lib/custom-slider/img/right-arrow.png);
+  background: url(../lib/custom-slider/img/right-arrow.png);
   background-position: right;
   width: 66px;
   text-align: left;
@@ -5843,7 +5843,7 @@ ul {
   color: #111111;
 }
 .main-slider6 .preview-1 a.nivo-prevNav {
-  background: url(lib/custom-slider/img/left-arrow.png);
+  background: url(../lib/custom-slider/img/left-arrow.png);
   background-position: left;
   width: 66px;
   text-align: right;
@@ -5851,7 +5851,7 @@ ul {
 }
 .main-slider6 .preview-1 a.nivo-nextNav {
   padding-right: 25px;
-  background: url(lib/custom-slider/img/right-arrow.png);
+  background: url(../lib/custom-slider/img/right-arrow.png);
   background-position: right;
   width: 66px;
   text-align: left;
@@ -6081,7 +6081,7 @@ ul {
   color: #FFFFFF;
 }
 .main-slider7 .preview-1 a.nivo-prevNav {
-  background: url(lib/custom-slider/img/left-arrow.png);
+  background: url(../lib/custom-slider/img/left-arrow.png);
   background-position: left;
   width: 66px;
   text-align: right;
@@ -6089,7 +6089,7 @@ ul {
 }
 .main-slider7 .preview-1 a.nivo-nextNav {
   padding-right: 25px;
-  background: url(lib/custom-slider/img/right-arrow.png);
+  background: url(../lib/custom-slider/img/right-arrow.png);
   background-position: right;
   width: 66px;
   text-align: left;
@@ -6335,7 +6335,7 @@ ul {
 4. Inner Page Bennar Area styles
 ==========================================*/
 .inner-page-banner-area {
-  background: url(img/inner-page-banner.jpg);
+  background: url(../img/inner-page-banner.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -10363,7 +10363,7 @@ ul {
   bottom: 0;
   z-index: 2;
   padding: 20px 35px;
-  background: url(img/blog/blog-mask.png);
+  background: url(../img/blog/blog-mask.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

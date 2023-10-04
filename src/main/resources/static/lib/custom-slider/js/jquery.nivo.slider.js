@@ -596,7 +596,7 @@
         };
         
         // For debugging
-        var trace = function(msg){
+        let trace = function(msg){
             if(this.console && typeof console.log !== 'undefined') { console.log(msg); }
         };
         

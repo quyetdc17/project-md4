@@ -167,14 +167,14 @@
      -------------------------------------*/
     if ($('#contact-form').length) {
         $('#contact-form').validator().on('submit', function(e) {
-            var $this = $(this),
+            let $this = $(this),
                 $target = $('.form-response');
             if (e.isDefaultPrevented()) {
                 $target.html("<div class='alert alert-success'><p>Please select all required field.</p></div>");
             } else {
-                var name = $('#form-name').val();
-                var email = $('#form-email').val();
-                var message = $('#form-message').val();
+                let name = $('#form-name').val();
+                let email = $('#form-email').val();
+                let message = $('#form-message').val();
                 // ajax call
                 $.ajax({
                     url: "php/form-process.php",
