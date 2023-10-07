@@ -9,4 +9,5 @@ public interface CategoryService {
     Category finId(String id);
     void add(Category ca);
     void edit(Category ca);
+    Category delete(String id);
 }

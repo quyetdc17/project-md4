@@ -92,13 +92,13 @@ public class HomeController {
         model.addAttribute("data", data );
         return "home/index";
     }
-    @GetMapping("/create")
-    public String create(Model model){
+    @GetMapping("/register")
+    public String register(Model model){
         model.addAttribute("user",new User("uuid1","default","user@email.com","000000000",new Timestamp(2012/10/29),"tokyo",true,"123",true));
-        return "home/create";
+        return "home/register";
     }
-    @PostMapping("/create")
-    public String create(User user,Model model){
+    @PostMapping("/register")
+    public String register(User user,Model model){
         data.add(user);
         return "redirect:/home";
     }
