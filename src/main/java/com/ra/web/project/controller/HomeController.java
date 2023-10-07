@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
+import java.sql.Timestamp;
 import java.util.List;
 
 @Controller
@@ -41,7 +42,7 @@ public class HomeController {
         if (login.getUsername().equals("admin") && login.getPassword().equals("123")){
             HttpSession session = request.getSession();
             session.setAttribute("user",login.getUsername());
-            return "redirect:my-account";
+            return "redirect:/home";
         }else {
             return "home/login";
         }
@@ -93,7 +94,7 @@ public class HomeController {
     }
     @GetMapping("/create")
     public String create(Model model){
-        model.addAttribute("user",new User());
+        model.addAttribute("user",new User("uuid1","default","user@email.com","000000000",new Timestamp(2012/10/29),"tokyo",true,"123",true));
         return "home/create";
     }
     @PostMapping("/create")

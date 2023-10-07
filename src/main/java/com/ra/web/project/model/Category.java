@@ -2,8 +2,8 @@ package com.ra.web.project.model;
 
 public class Category {
     private String categoryId;
-    private String name;
-    private String type;
+    private String cartName;
+    private int type;
     private boolean isShowHome;
     private boolean isMenu;
     private String parentId;

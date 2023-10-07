@@ -5,88 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4618b13e-c5d3-4ad7-b97a-26c449f913d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/Manufacturer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/ProductColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/+1234567890.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/my-account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/order-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/order-history.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/portfolio1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/portfolio2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/product-details1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/product-details2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/shop1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/single-blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/wishlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/util/MySqlConnect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/web/project/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/web/project/config/WebSpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/config/WebSpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/web/project/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/LoginModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/LoginModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/web/project/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/check-out.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/check-out.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index10.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index5.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index6.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index7.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index8.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index9.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/isotope.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/isotope.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/validator.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/validator.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/vendor/jquery-2.2.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/vendor/jquery-2.2.4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/vendor/modernizr-2.8.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/vendor/modernizr-2.8.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/custom-slider/js/jquery.nivo.slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/lib/custom-slider/js/jquery.nivo.slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login-registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login-registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/my-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/my-account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/order-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/order-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/order-history.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/order-history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/portfolio1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/portfolio1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/portfolio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/portfolio2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/product-details1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/product-details1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/product-details2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/product-details2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/shop1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/shop1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/shop2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/shop2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/shop3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/shop3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/shop4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/shop4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/shop5.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/shop5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/shop6.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/shop6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/shop7.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/shop7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/single-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/single-blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/wishlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/checkOut.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/checkOut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/masterPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout/masterPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +51,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -264,7 +196,7 @@
       <workItem from="1695988034119" duration="57000" />
       <workItem from="1695988098452" duration="370000" />
       <workItem from="1695988856584" duration="5708000" />
-      <workItem from="1696164447267" duration="24491000" />
+      <workItem from="1696164447267" duration="38856000" />
     </task>
     <servers />
   </component>

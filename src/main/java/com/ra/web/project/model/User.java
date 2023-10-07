@@ -4,6 +4,7 @@ import java.sql.Timestamp;
 
 public class User {
     private String userId;
+    private String username;
     private String email;
     private String phone;
     private Timestamp birthday;
@@ -15,10 +16,11 @@ public class User {
     public User() {
     }
 
-    public User(String userId, String email,
-                String phone, Timestamp birthday, String address,
-                boolean gender, String password, boolean status) {
+    public User(String userId, String username, String email, String phone,
+                Timestamp birthday, String address, boolean gender,
+                String password, boolean status) {
         this.userId = userId;
+        this.username = username;
         this.email = email;
         this.phone = phone;
         this.birthday = birthday;
@@ -26,6 +28,9 @@ public class User {
         this.gender = gender;
         this.password = password;
         this.status = status;
+    }
+
+    public User(String uuid1, String aDefault, String mail, String number, int i, String tokyo, boolean gender, String number1, boolean status) {
     }
 
     public String getUserId() {
@@ -50,6 +55,14 @@ public class User {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public Timestamp getBirthday() {

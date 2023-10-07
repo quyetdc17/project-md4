@@ -99,12 +99,10 @@ public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
         messageSource.setDefaultEncoding("UTF-8");
         return messageSource;
     }
-
-
-//    @Bean
-//    public MultipartResolver multipartResolver() {
-//        CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver();
-//        multipartResolver.setMaxUploadSize(1024 * 1024 * 50);
-//        return multipartResolver;
-//    }
+        @Bean
+    public MultipartResolver multipartResolver() {
+        CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver();
+        multipartResolver.setMaxUploadSize(1024 * 1024 * 50);
+        return multipartResolver;
+    }
 }
